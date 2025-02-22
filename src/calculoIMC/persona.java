@@ -1,6 +1,7 @@
 package calculoIMC;
 
 /**
+ * 
  * Clase persona, realizamos la operación del cálculo del imc con los datos que introduce el usuario.
  */
 
@@ -11,6 +12,7 @@ public class persona {
 	
 	
 	/**
+	 * 
 	 * Constructores de clase para persona, el primero un constructor vacio y el segundo con la introducción de datos por parte del usuario.
 	 */
 	
@@ -38,10 +40,12 @@ public class persona {
 	 */ 
 	
 	/**
+	 * 
 	 * Método para el cálculo del IMC
 	 * devuelve un texto según el imc que se ha obtenido en la operación calculada.
 	 * @param peso el peso en kg
 	 * @param altura la altura en cm que posteriormente pasa a m.
+	 * 
 	 */
 	
 	public void calcularIMC(double peso, double altura) {   
@@ -61,7 +65,9 @@ public class persona {
 	}
 	
 	/**
+	 * 
 	 * @return devuelve la altura y el peso por pantalla.
+	 * 
 	 */
 	@Override  //Método para que imprima los datos por pantalla.
 	public String toString() {
@@ -85,6 +91,7 @@ public class persona {
 	/**
 	 * Establece el peso de la persona.
 	 * @param peso Nuevo peso en kilogramos.
+	 * 
 	 */
 	
 	public void setPeso(int peso) {

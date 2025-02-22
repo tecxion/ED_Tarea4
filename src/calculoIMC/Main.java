@@ -11,6 +11,9 @@ import java.util.*;
 
 /**
  * Clase Main principal.
+ * @author Jose F Montero
+ * @version 1.0
+ * 
  */
 public class Main { 
 	
