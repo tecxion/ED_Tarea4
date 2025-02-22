@@ -3,16 +3,10 @@ package calculoIMC;
 import java.util.*;
 
 /**
- * Esta aplicación calcula el índice de masa coroporal en las personas. los datos estarán dentro de un ranto 
- * @author Jose F Montero.
- * @version 1.0
- * Programa principal para el cálculo del IMC de una persona.
- */
-
-/**
  * Clase Main principal.
  * @author Jose F Montero
  * @version 1.0
+ * Esta aplicación calcula el índice de masa coroporal en las personas. los datos estarán dentro de un ranto
  * 
  */
 public class Main { 
